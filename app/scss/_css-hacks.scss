@@ -1,0 +1,147 @@
+_:-ms-fullscreen, :root .so-el-bg:nth-child(odd)  { 
+	background: transparent;
+	color: #f26522;
+}
+
+_:-ms-lang(x),  .so-el-bg:nth-child(odd) { 
+	background: transparent; 
+	color: #f26522;
+}
+
+_:selection, .so-el-bg:nth-child(odd)  { 
+	background: transparent;
+	color: #f26522; 
+}
+
+//
+
+
+_:-ms-fullscreen, :root .so-el-bg:nth-child(even) { 
+	background: transparent;
+	color: #fa0891;
+}
+
+_:-ms-lang(x),  .so-el-bg:nth-child(even) { 
+	background: transparent; 
+	color: #fa0891;
+}
+
+_:selection, .so-el-bg:nth-child(even) { 
+	background: transparent;
+	color: #fa0891; 
+}
+
+//
+
+
+_:-ms-fullscreen, :root .sf-el-bg {
+	background: transparent;
+	color: white; 
+}
+
+_:-ms-lang(x),  .sf-el-bg {
+	background: transparent;
+	color: white; 
+}
+
+_:selection, .sf-el-bg {
+	background: transparent;
+	color: white; 
+}
+
+
+//
+
+
+_:-ms-fullscreen, :root .bl-level { 
+	display: block;
+}
+
+_:-ms-lang(x),  .bl-level { 
+	display: block;
+}
+
+_:selection, .bl-level { 
+	display: block;
+}
+
+
+//
+
+
+_:-ms-fullscreen, :root .bl-level-icon { 
+	display: block;
+	margin: 0 auto;
+}
+
+_:-ms-lang(x),  .bl-level-icon { 
+	display: block;
+	margin: 0 auto;
+}
+
+_:selection, .bl-level-icon { 
+	display: block;
+	margin: 0 auto;
+}
+
+
+//
+
+
+_:-ms-fullscreen, :root .other-form-bt { 
+	max-width: 380px;
+}
+
+_:-ms-lang(x),  .other-form-bt { 
+	max-width: 380px;	
+}
+
+_:selection, .other-form-bt { 
+	max-width: 380px;
+}
+
+
+//
+
+
+_:-ms-fullscreen, :root .modal-other-description { 
+	max-width: 380px;
+}
+
+_:-ms-lang(x),  .modal-other-description { 
+	max-width: 380px;	
+}
+
+_:selection, .modal-other-description { 
+	max-width: 380px;
+}
+
+//
+
+@supports (-ms-ime-align: auto)
+{
+    .so-el-bg:nth-child(odd)
+    {
+        background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+        background: -webkit-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        background:      -o-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        background:         linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@supports (-ms-ime-align: auto)
+{
+    .so-el-bg:nth-child(even)
+    {
+        background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+        background: -webkit-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        background:      -o-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        background:         linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+    }
+}

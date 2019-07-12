@@ -1,0 +1,37 @@
+.st-bl-all {
+    padding: 100px 0;
+
+    @extend %df-elem-column-cc;
+}
+
+.title-bl {
+    font-size: 54px;
+    font-weight: 700;
+
+    margin: 0;
+
+    text-align: center;
+
+    color: $titleColor;
+}
+
+.st-bl-center {
+    margin: 90px 0 90px 0;
+
+    @extend %df-elem-row-bc;
+}
+
+.bl-level {
+    max-width: 270px;
+
+    @extend %df-elem-column-cc;
+}
+
+.bl-level-des {
+    font-size: 18px;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: $textColor;
+}

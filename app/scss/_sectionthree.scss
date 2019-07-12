@@ -1,0 +1,87 @@
+.section-three {
+    background-color: $bcgColor;
+}
+
+.bl-portfolio {
+    width: 100%;
+
+    @extend %df-elem-column-cc;
+}
+
+.bl-portfolio:nth-child(2) {
+    margin: 0 30px;
+}
+
+.bl-portfolio:hover {
+    cursor: pointer;
+}
+
+.arrow-left, .owl-prev {
+    top: 30%;
+    left: -30px;
+
+    background: url('../img/icon/left-arrow.png') no-repeat center !important;
+}
+
+.arrow-right, .owl-next {
+    top: 30%;
+    right: -30px;
+
+    background: url('../img/icon/right-arrow.png') no-repeat center !important;
+}
+
+.owl-prev > span {
+    display: none;
+}
+
+.owl-next > span {
+    display: none;
+}
+
+
+.arrow, .owl-prev, .owl-next {
+    position: absolute ;
+    z-index: 99;
+
+    display: block ;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+
+.bl-portfolio-des {
+    margin-top: 35px;
+
+    text-align: center;
+}
+
+.bl-portfolio-link {
+    text-decoration: none;
+
+    color: $titleColor;
+}
+
+.container-st-bl-center {
+    position: relative;
+}
+
+.bl-portfolio-img {
+    width: 100%;
+}
+
+.owl-stage-outer {
+    max-width: 1100px !important;
+}
+
+.owl-nav {
+    margin: 0 !important;
+}

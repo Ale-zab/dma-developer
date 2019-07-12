@@ -1,0 +1,69 @@
+.header {
+    background-color: $bcgColor;
+}
+
+.h-bl-all {
+    @extend %df-elem-row-bc;
+}
+
+.menu-list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    @extend %df-elem-row-cc;
+}
+
+.menu-list-item:nth-child(2) {
+    margin: 0 30px;
+}
+
+.menu-list-item-link {
+    font-size: 16px;
+    font-weight: 400;
+
+    text-decoration: none;
+
+    color: $titleColor;
+}
+
+.menu-list-item-link:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+}
+
+.h-bl-ri {
+    @extend %df-elem-row-cc;
+}
+
+.tel {
+    font-size: 25px;
+    font-weight: 700;
+
+    margin-right: 30px;
+
+    color: $titleColor;
+}
+
+.bt-callback {
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 12px 35px;
+
+    color: #f53f4f;
+    border: 1px solid #f82370;
+    background: none;
+}
+
+.bt-callback:hover {
+    cursor: pointer;
+
+    color: #fff;
+    background-color: #f82370;
+}
+
+.menu-modal-container {
+    display: none;
+}

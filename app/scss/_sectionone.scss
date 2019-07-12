@@ -1,0 +1,220 @@
+.section-one {
+    position: relative;
+
+    overflow: hidden;
+
+    background: url('../img/main/Ellipse.png') 100% 0 no-repeat;
+    background-color: $bcgColor;
+}
+
+.so-bl-all {
+    @extend %df-elem-row-bc;
+}
+
+.title-site {
+    font-size: 80px;
+    font-weight: 700;
+
+    margin: 0;
+
+    color: $titleColor;
+}
+
+.description-site {
+    font-size: 25px;
+    font-weight: 400;
+
+    margin: 20px 0 45px 0;
+
+    color: $textColor;
+}
+
+.bt-all-style {
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 16px 52px;
+
+    color: #fff;
+    border: none;
+    background: #ff4e2e;
+}
+
+.bt-all-style:hover {
+    cursor: pointer;
+
+    color: #fff;
+    background-image: -webkit-linear-gradient(77deg, #ff8f5a 30%, #ff2f96 99%, #ff2f96 100%);
+    background-image:      -o-linear-gradient(77deg, #ff8f5a 30%, #ff2f96 99%, #ff2f96 100%);
+    background-image:         linear-gradient(13deg, #ff8f5a 30%, #ff2f96 99%, #ff2f96 100%);
+}
+
+.el-bg {
+    font-size: 43px;
+    font-weight: 700;
+
+    position: absolute;
+
+    background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+    background: -webkit-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+    background:      -o-linear-gradient(bottom, #f26522 0%, #fa0891 99%, #fa0891 100%);
+    background:         linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.so-el-bg:nth-child(2) {
+    top: 12%;
+    left: 20%;
+
+    -webkit-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+
+.so-el-bg:nth-child(3) {
+    top: 20%;
+    left: 45%;
+
+    -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+}
+
+.so-el-bg:nth-child(4) {
+    top: 55%;
+    left: 10%;
+
+    -webkit-transform: rotate(25deg);
+        -ms-transform: rotate(25deg);
+            transform: rotate(25deg);
+}
+
+.so-el-bg:nth-child(5) {
+    bottom: 20%;
+    left: 40%;
+
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+}
+
+.so-el-bg:nth-child(6) {
+    bottom: 5%;
+    left: 15%;
+
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+}
+
+.so-bl-lf-media {
+    margin-top: 20px;
+
+    @extend %df-elem-column-cc;
+}
+
+
+
+@-webkit-keyframes mediaTeg-one {
+    0% {
+        top: -10%;
+        left: -10%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+
+
+@keyframes mediaTeg-one {
+    0% {
+        top: -10%;
+        left: -10%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes mediaTeg-two {
+    0% {
+        top: -10%;
+        left: 45%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@keyframes mediaTeg-two {
+    0% {
+        top: -10%;
+        left: 45%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes mediaTeg-three {
+    0% {
+        top: 50%;
+        left: -10%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@keyframes mediaTeg-three {
+    0% {
+        top: 50%;
+        left: -10%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes mediaTeg-four {
+    0% {
+        bottom: -10%;
+        left: 40%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@keyframes mediaTeg-four {
+    0% {
+        bottom: -10%;
+        left: 40%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes mediaTeg-five {
+    0% {
+        bottom: -10%;
+        left: 15%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@keyframes mediaTeg-five {
+    0% { 
+        bottom: -10%;
+        left: 15%;
+
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
